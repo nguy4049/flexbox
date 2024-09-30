@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    align-content: stretch;
+    align-content:
     justify-content: space-between;
     border: 6px solid green;
     width: 80%;
@@ -18,5 +18,4 @@
     margin: 1rem;
     border-radius: 10px;
     align-content: center;
-
 }
