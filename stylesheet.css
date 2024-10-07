@@ -38,7 +38,7 @@ body {
         }
     }
     hr {
-        height: 0px;
+        height: 1px;
         border: none;
         width: 98%;
         border-top: 1px solid black
@@ -74,8 +74,5 @@ body {
 
        }
     }
-
-
-    }
-
 }
+
