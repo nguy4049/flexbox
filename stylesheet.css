@@ -36,6 +36,39 @@ body {
             text-align: justify;
             text-justify: inter-word;
         }
+        img {
+            width: 100%;
+            border-radius: 1rem;
+        }
+        svg {
+            width: 100%;
+            color: blue;
+            &.hover {
+                color: red;
+                scale: 2;
+            }
+        }
+        .floated {
+            width: 50%;
+
+            &.right {
+                float: right;
+                margin-left: 1rem;
+            }
+            &.left {
+                float: left;
+                margin-right: 1rem;
+            }
+        }
+        .floated-bg {
+            border: 1px solid blue;
+            min-height: 100px;
+            background-image: url('nature.jpg');
+            color: white;
+            font-size: 2rem;
+            padding: 1rem;
+            background-size: cover;
+        }
     }
     hr {
         height: 1px;
@@ -52,6 +85,9 @@ body {
             justify-content: center;
             flex-direction: row;
             gap: 1rem;
+        }
+        hr {
+            width: 65%;
         }
         article {
             width: 65%;
@@ -73,6 +109,9 @@ body {
            /* a possible solution but inefficient when there's more paragraph and can't be change quite easily*/
 
        }
+        hr {
+            width: 85%;
+        }
     }
 }
 
